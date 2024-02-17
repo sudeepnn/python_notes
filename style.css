@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #201658;
+    color: white;
+    font-family: "Kode Mono", monospace;
+  
+}
+.notes{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.con{
+    margin-top: 30px;
+    background-color: #28227c;
+    height: 150px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.58);
+}
+.con a{
+    margin-top: 10px;
+}
+nav{
+    background-color: #28227c;
+    height: 100px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.doc{
+    height: 50px;
+    width: 50px;
+}
+.end{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    gap: 20px;
+    background-color: #28227c;
+}
+@media only screen and (max-width: 1000px) {
+    .con{
+        width: 70%;
+    }
+  }
